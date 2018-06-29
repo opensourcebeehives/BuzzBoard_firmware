@@ -14,7 +14,7 @@
 // TODO:
 // 		- Deep sleep
 //		- Memory card backup for audio samples
-//		- Sleep mode for peripherals
+//		- Sleep mode for peripheralz
 
 
 #include "Particle.h"

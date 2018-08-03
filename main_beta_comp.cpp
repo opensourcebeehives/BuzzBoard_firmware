@@ -33,7 +33,8 @@
 
 using namespace std;
 
-const int FW_VERSION = 1;
+const int FW_VERSION = 21;
+
 
 // System threading is required for this project
 SYSTEM_THREAD(ENABLED);
@@ -83,7 +84,7 @@ const long SAMPLE_RATE = 63000;
 
 
 // Audio server is running on (AWS)
-const char serverAddr[] = "osbeehives.com";
+const char serverAddr[] = "buzzboard-audio.osbeehives.com";
 int serverPort = 8080;
 
 //POST headers
@@ -91,7 +92,7 @@ const char postHeader1test[] = "POST /write?db=AudioData HTTP/1.1\r\n"
 					 "User-Agent: ";
 
 const char postHeader2test[] = "\r\n"
-                  	"Host: osbeehives.com:8080\r\n"                       		
+                  	"Host: buzzboard-audio.osbeehives.com:8080\r\n"                       		
                   	"Accept: ";                       		
 
 const char postHeader3test[] = " */*";                       		

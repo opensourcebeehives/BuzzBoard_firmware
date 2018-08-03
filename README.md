@@ -9,8 +9,11 @@ See license file.
 
 ## Change Log
 
-###v1
+### v2
+  - updated audio server URL
+### v1
   - Initial release
+
 
 
 ## Local Build
